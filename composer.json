@@ -1,0 +1,19 @@
+{
+    "name": "pavelkhizhenok/convertor",
+    "description": "Module for converting and saving currencies rates",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pavelkhizhenok\\Convertor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Khizhenok Pavel",
+            "email": "khizhenokp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    }
+}
