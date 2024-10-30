@@ -1,1 +1,5 @@
+/.docker
 /vendor
+/public
+.env
+docker-compose.yml

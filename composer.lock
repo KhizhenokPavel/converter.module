@@ -4,8 +4,46 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6432edd4b80293b4b5005567f59359e9",
-    "packages": [],
+    "content-hash": "874598036133223cd3a383dc228f9807",
+    "packages": [
+        {
+            "name": "pavelkhizhenok/supportclasses",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KhizhenokPavel/supportClasses.git",
+                "reference": "d3c6df3d927093136a4330180e653346224b51c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KhizhenokPavel/supportClasses/zipball/d3c6df3d927093136a4330180e653346224b51c1",
+                "reference": "d3c6df3d927093136a4330180e653346224b51c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pavelkhizhenok\\SupportClasses\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Khizhenok Pavel",
+                    "email": "khizhenokp@gmail.com"
+                }
+            ],
+            "description": "Module for base classes",
+            "support": {
+                "issues": "https://github.com/KhizhenokPavel/supportClasses/issues",
+                "source": "https://github.com/KhizhenokPavel/supportClasses/tree/v1.0.0"
+            },
+            "time": "2024-10-30T19:36:02+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
@@ -13,7 +51,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6"
+        "php": ">=7.4"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
