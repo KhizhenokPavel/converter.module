@@ -1,8 +1,8 @@
 <?php
 
-namespace Pavelkhizhenok\Convertor;
+namespace Pavelkhizhenok\Converter;
 
-class Convertor {
+class Converter {
 
     protected array $availableExchangeRates = array();
 

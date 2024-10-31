@@ -1,6 +1,6 @@
 <?php
 
-namespace Pavelkhizhenok\Convertor;
+namespace Pavelkhizhenok\Converter;
 
 use Pavelkhizhenok\SupportClasses\Classes\ApiClient;
 

@@ -1,10 +1,10 @@
 {
-    "name": "pavelkhizhenok/convertor",
+    "name": "pavelkhizhenok/converter",
     "description": "Module for converting and saving currencies rates",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Pavelkhizhenok\\Convertor\\": "src/"
+            "Pavelkhizhenok\\Converter\\": "src/"
         }
     },
     "authors": [
