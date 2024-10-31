@@ -15,6 +15,6 @@
     ],
     "require": {
         "php": ">=7.4",
-        "pavelkhizhenok/supportclasses": "^1.0"
+        "pavelkhizhenok/supportclasses": "*"
     }
 }
