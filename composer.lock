@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "pavelkhizhenok/supportclasses",
-            "version": "v2.0.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KhizhenokPavel/supportClasses.git",
-                "reference": "7c2d0a1ae8591f92b472ea6aafc2110d2a1ec0f7"
+                "reference": "841b909c8f7b8d22d4051930e1e149e35fe48940"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KhizhenokPavel/supportClasses/zipball/7c2d0a1ae8591f92b472ea6aafc2110d2a1ec0f7",
-                "reference": "7c2d0a1ae8591f92b472ea6aafc2110d2a1ec0f7",
+                "url": "https://api.github.com/repos/KhizhenokPavel/supportClasses/zipball/841b909c8f7b8d22d4051930e1e149e35fe48940",
+                "reference": "841b909c8f7b8d22d4051930e1e149e35fe48940",
                 "shasum": ""
             },
             "require": {
@@ -39,9 +39,9 @@
             "description": "Module for base classes",
             "support": {
                 "issues": "https://github.com/KhizhenokPavel/supportClasses/issues",
-                "source": "https://github.com/KhizhenokPavel/supportClasses/tree/v2.0.0"
+                "source": "https://github.com/KhizhenokPavel/supportClasses/tree/v2.1.1"
             },
-            "time": "2024-10-31T22:34:50+00:00"
+            "time": "2024-11-02T10:34:08+00:00"
         }
     ],
     "packages-dev": [],
