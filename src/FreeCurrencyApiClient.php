@@ -29,7 +29,7 @@ class FreeCurrencyApiClient extends ApiClient {
 
     public function getLatestExchangeRates(string $baseCurrency = '', array $currencies = array()): array|bool {
 
-        return $this->sendRequest('latest', 
+        return $this->sendRequestAndGetResponseBody('latest', 
             array(
                 'base_currency' => $baseCurrency,
                 'currencies' => $this->getCurrenciesList($currencies),
@@ -40,7 +40,7 @@ class FreeCurrencyApiClient extends ApiClient {
 
     public function getCurrencies(array $currencies = array()): array|bool {
 
-        return $this->sendRequest('currencies',
+        return $this->sendRequestAndGetResponseBody('currencies',
             array(
                 'currencies' => $this->getCurrenciesList($currencies),
             )
@@ -50,7 +50,7 @@ class FreeCurrencyApiClient extends ApiClient {
 
     public function getHistoricalExchangeRates(string $date, string $baseCurrency = '', array $currencies = array()): array|bool {
 
-        return $this->sendRequest('historical', 
+        return $this->sendRequestAndGetResponseBody('historical', 
             array(
                 'date' => $date,
                 'base_currency' => $baseCurrency,
