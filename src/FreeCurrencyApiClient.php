@@ -68,7 +68,7 @@ class FreeCurrencyApiClient extends ApiClient {
             $exchangeRates = $this->getLatestExchangeRates($currency, $currencies);
 
             if ($exchangeRates) {
-                $rates[$currency] = $exchangeRates['response'];
+                $rates[$currency] = $exchangeRates;
             }
         }
 
