@@ -12,7 +12,7 @@ class FreeCurrencyApiClient extends ApiClient {
 
         $this->apiKey = $apiKey;
 
-        parent::__construct($this->getConfig());
+        parent::__construct();
 
     }
 
